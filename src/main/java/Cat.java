@@ -13,6 +13,7 @@ public class Cat extends Animal {
         return "Meow";
     }
     
+    @Override
     public void move() {
         position = (position + 5);
     }    

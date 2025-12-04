@@ -13,7 +13,8 @@ public class Bird extends Animal {
         return "Chirp";
     }
 
-    void move() {
+    @Override
+    public void move() {
         position = (position + 50);
     }    
 }

@@ -13,7 +13,8 @@ public class Bear extends Animal {
         return "Roar";
     }
 
-    void move() {
+    @Override
+    public void move() {
         position = (position + 1);
     }
 }
